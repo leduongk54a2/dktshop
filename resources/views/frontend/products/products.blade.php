@@ -4,7 +4,7 @@
     <div class="special-collection">
         <div class="tabs-container">
             <div class="clearfix">
-                <h2>Danh Mục: {{$category->name}}</h2>
+                <h2>Danh Mục</h2>
             </div>
         </div>
         <div class="tabs-content row">

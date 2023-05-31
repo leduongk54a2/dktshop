@@ -15,7 +15,7 @@
             <!-- Wrapper for slides -->
             <div class="carousel-inner">
               @foreach($sliders as $slider)
-                <div class="item {{$slider->id == 1 ? 'active' : ''}}"><img src="../../{{$slider->img}}"
+                <div class="item {{$slider->id == 1 ? 'active' : ''}}"><img src={{ asset($slider->img)}}
                                               alt="{{$slider->name}}"></div>
             @endforeach
 <!--                <div class="item"><img src="../../asset/frontend/images/slideshow1221b.jpg"-->

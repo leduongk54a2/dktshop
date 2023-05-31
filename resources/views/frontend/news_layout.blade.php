@@ -10,7 +10,7 @@
             <p class="desc">
             <p>{!! $newsItem->description !!}</p>
             </p>
-        </div>
+        </div>F
     </div>
 </div>
 @endforeach

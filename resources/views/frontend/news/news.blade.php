@@ -5,7 +5,7 @@
     <!-- list news -->
     <div class="row">
      @foreach($listNews as $news)
-            <div class="col-md-6 article"> <a href="index.php?controller=news_detail&id={{$news->id}}" class="image"> <img src="{{asset('upload/news/'.$news->img)}}" alt="{{$news->title}}" title="{{$news->name}}" class="img-responsive"> </a>
+            <div class="col-md-6 article"> <a href="controller=news_detail&id={{$news->id}}" class="image"> <img src="{{asset('upload/news/'.$news->img)}}" alt="{{$news->title}}" title="{{$news->name}}" class="img-responsive"> </a>
                 <h3><a href="index.php?controller=news_detail&id=">{{$news->title}}</a></h3>
                 <p class="date"></p>
                 <p class="desc"></p>

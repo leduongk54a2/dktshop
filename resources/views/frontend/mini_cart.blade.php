@@ -9,7 +9,7 @@
                     @else
                     @foreach($cartProducts as $key=>$cartProduct)
                         <li class="clearfix" id="item-1853038">
-                            <div class="image"> <a href="{{route('product',['id'=>$key])}}"> <img alt="" src="{{asset('upload/product/'.$cartProduct['img'])}}" title="" class="img-responsive"> </a> </div>
+                            <div class="image"> <a href="{{route('product',['id'=>$key])}}"> <img alt="" src="{{asset('frontend/images/'.$cartProduct['img'])}}" title="" class="img-responsive"> </a> </div>
                             <div class="info">
                                 <h3><a href="{{route('product',['id'=>$key])}}">{{$cartProduct['name']}}</a></h3>
                                 <p>{{$cartProduct['quantity']}} x {{ number_format($cartProduct["price"],0,'','.')}}₫</p>

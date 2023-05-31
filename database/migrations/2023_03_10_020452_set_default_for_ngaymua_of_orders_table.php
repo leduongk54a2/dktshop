@@ -15,7 +15,7 @@ return new class extends Migration
             //
             $table->dateTime('ngaymua')->default(now())->change();
             $table->bigInteger('gia')->default(0)->change();
-            $table->tinyInteger('trangthai')->default(0)->change();
+            $table->smallInteger('trangthai')->tinyInteger('trangthai')->default(0)->change();
         });
     }
 

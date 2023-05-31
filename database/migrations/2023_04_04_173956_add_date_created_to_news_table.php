@@ -13,6 +13,7 @@ return new class extends Migration
     public function up(): void
     {
         Schema::table('news', function (Blueprint $table) {
+            $table->tinyInteger('visible')->default(1);
             $table->timestamps();
         });
     }

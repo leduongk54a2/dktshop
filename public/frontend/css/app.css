@@ -1,0 +1,13 @@
+.product-grid .image {
+    height: 100px;
+}
+
+.carousel-inner .item img {
+    width: 100%;
+    height: 480px !important;
+    margin: 0 auto;
+}
+
+.bottom-footer {
+    display: none;
+}
